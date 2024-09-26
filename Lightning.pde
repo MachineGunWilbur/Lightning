@@ -12,7 +12,7 @@ void setup()
 void draw(){
 fill(230,230,230);
 stroke(((int)(Math.random()*255)),((int)(Math.random()*255)),((int)(Math.random()*255)),((int)(Math.random()*255)));
-for(int repeat = 0; repeat < 50; repeat++){
+for(int repeat = 0; repeat < 5; repeat++){
 while(endX < 300){
   endX = startX + (int)(Math.random()*2);
   endY = startY + (int)(Math.random()*2);
