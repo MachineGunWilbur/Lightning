@@ -5,14 +5,13 @@ int endY = 0;
 void setup()
 {
   size(300,300);
-  background(((int)(Math.random()*255)),((int)(Math.random()*255)),((int)(Math.random()*255)));
   noFill();
   frameRate(10);
 }
 void draw(){
 fill(230,230,230);
 stroke(((int)(Math.random()*255)),((int)(Math.random()*255)),((int)(Math.random()*255)),((int)(Math.random()*255)));
-for(int repeat = 0; repeat < 5; repeat++){
+for(int repeat = 0; repeat < 5; repeat += 4){
 while(endX < 300){
   endX = startX + (int)(Math.random()*2);
   endY = startY + (int)(Math.random()*2);
@@ -36,6 +35,7 @@ while(endX < 300){
 }
 void mousePressed()
 {
+background(((int)(Math.random()*255)),((int)(Math.random()*255)),((int)(Math.random()*255)));
 startX = ((int)(Math.random()*100));
 startY = ((int)(Math.random()*100));
 endX = 0;
