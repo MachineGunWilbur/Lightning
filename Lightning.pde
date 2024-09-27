@@ -24,13 +24,13 @@ while(endX < 300){
 fill(230,230,230);
 
 stroke(((int)(Math.random()*255)),((int)(Math.random()*255)),((int)(Math.random()*255)),((int)(Math.random()*255)));
-  circle(30,30,50);
-  circle(50,50,50);
-  circle(40,40,50);
-  circle(20,60,50);
-  circle(60,20,50);
-  circle(70,40,50);
-  circle(70,40,50);
+  ellipse(30,30,50,50);
+  ellipse(50,50,50,50);
+  ellipse(40,40,50,50);
+  ellipse(20,60,50,50);
+  ellipse(60,20,50,50);
+  ellipse(70,40,50,50);
+  ellipse(70,40,50,50);
 }
 void mousePressed()
 {
