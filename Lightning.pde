@@ -35,7 +35,6 @@ noStroke();
 }
 void mousePressed()
 {
-background(((int)(Math.random()*255)),((int)(Math.random()*255)),((int)(Math.random()*255)));
 startX = ((int)(Math.random()*100));
 startY = ((int)(Math.random()*100));
 endX = 0;
